@@ -1,15 +1,15 @@
 import React from 'react'
-import hero from './images/Group 77.png'
+
 const Hero = () =>{
     return(
     <div className='hero_section'>
-            <div className='hero_i'>
-            <img src = {hero} alt="missing" className='image'/>
+            <div className='hero'>
+                <img src = { "/images/Group_77.png"}alt="missing" className='hero--photo'/>
             </div>
             <br/>
             <div className='hero_content'>
-                <h1 className='hero_h'>Online Experiences</h1>
-                <p className='hero_paragraph'> 
+                <h1 className='hero--header'>Online Experiences</h1>
+                <p className='hero--text'> 
                     Join unique interactive activities<br/>
                      led by one-of a kind hosts without <br/>
                     leaving home

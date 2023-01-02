@@ -1,12 +1,11 @@
 import React from 'react'
-import nav from './images/nav.png'
-import './App.css'
+import '../Components/data.css'
 
 const Navigation = () =>{
     return(
         <div className='nav-'>
             <nav className='nav'>
-              <img src={nav} alt="missing"/>
+              <img src={"/images/nav.png"} className= "nav--logo" alt="missing"/>
             </nav>
         </div>
     )
